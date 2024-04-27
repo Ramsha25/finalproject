@@ -1,0 +1,25 @@
+.sec1{
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+}
+.sec2{
+    font-size: 80px;
+}
+@media screen and (max-width:300px) and (min-width:0px) {
+    .sec2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:500px) and (min-width:301px) {
+    .sec2{
+        font-size: 50px;
+    }
+}
+.sec3{
+    background: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
+}
+body{
+    background: linear-gradient(90deg, #FFEFBA 0%, #FFFFFF 100%);
+}
+nav{
+    background: linear-gradient(90deg, #FFEFBA 0%, #FFFFFF 100%);
+}
